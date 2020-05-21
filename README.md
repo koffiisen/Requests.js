@@ -109,16 +109,16 @@ response.history
         });
 ```
 
-* ##### HTMLSession#find(query)
-* ##### HTMLSession#findAll(query)
-* ##### HTMLSession#find(query)
-* ##### HTMLSession#findAllByTagName(tag)
-* ##### HTMLSession#getAttrs(elem)
-* ##### HTMLSession#html
-* ##### HTMLSession#links
-* ##### HTMLSession#search
-* ##### HTMLSession#searchTagByText
-* ##### HTMLSession#title
+* ###### HTMLSession#find(query)
+* ###### HTMLSession#findAll(query)
+* ###### HTMLSession#find(query)
+* ###### HTMLSession#findAllByTagName(tag)
+* ###### HTMLSession#getAttrs(elem)
+* ###### HTMLSession#html
+* ###### HTMLSession#links
+* ###### HTMLSession#search
+* ###### HTMLSession#searchTagByText
+* ###### HTMLSession#title
 
 
 ### Extra ~ Ping
@@ -138,9 +138,10 @@ ping("10.1.x.x", function (status, e) {
 ### Auto export
 
 ````js
-// currently is disable. Just copy and paste to your main.js
+
 window.Requests = Requests;
 window.HTMLSession = new Requests().HTMLSession;
+// currently is disable. Just copy and paste to your main.js
 window.get = new Requests().get;
 window.post = new Requests().post;
 window.put = new Requests().put;
@@ -150,6 +151,7 @@ window.options = new Requests().options;
 window.delete = new Requests().delete;
 window.request = new Requests().request;
 window.ping = new Requests().ping;
+// End of disable
 ````
 
 ## License
