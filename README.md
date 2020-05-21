@@ -125,12 +125,6 @@ response.history
 new Requests().ping("localhost", function (status, e) {
             console.log("PING", status)
         })
-// or 
-
-ping("10.1.x.x", function (status, e) {
-            console.log("PING", status)
-        })
-
 // status : responded | timeout
 ```
 
